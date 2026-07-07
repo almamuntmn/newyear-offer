@@ -68,3 +68,65 @@ header {
     font-size: 48px;
     margin: 0px;
 }
+
+.party{
+    max-width: 1320px;
+    margin: 50px auto;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.party-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 130px;
+}
+
+.party-text{
+    color: white;
+    max-width: 500px;
+}
+
+.party-text h1{
+    font-size: 64px;
+    margin: 0px;
+}
+
+.party-text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.join-btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.event-info{
+    max-width: 1320px;
+    margin: 50px auto;
+    background: linear-gradient(to top, #FFffff, #ffe1e1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.event-info h2{
+text-align: center;
+}
+
+.red-text{
+    color: red;
+}
