@@ -287,3 +287,209 @@ color: white;
     justify-content: space-between;
     margin-top: 20px;
 }
+
+
+/* ==========================
+   Medium Devices (768px-992px)
+========================== */
+
+@media screen and (max-width: 992px) {
+
+    header,
+    .offer,
+    .party,
+    .event-info,
+    .new-offer,
+    .holiday,
+    .portfolio,
+    .subscribe,
+    .footer {
+        width: 90%;
+    }
+
+    .party-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 40px;
+        gap: 40px;
+    }
+
+    .new-offer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .round-img {
+        margin: auto;
+        width: fit-content;
+    }
+
+    .holiday-img {
+        flex-direction: column;
+        gap: 40px;
+        background-size: 100%;
+    }
+
+    .holiday-img img {
+        max-width: 80%;
+    }
+
+    .portfolio-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .portfolio-img img {
+        width: 100%;
+    }
+
+    .footer-text,
+    .bottom-text {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+
+/* ==========================
+   Small Devices (576px)
+========================== */
+
+@media screen and (max-width: 576px) {
+
+    header,
+    .offer,
+    .party,
+    .event-info,
+    .new-offer,
+    .holiday,
+    .portfolio,
+    .subscribe,
+    .footer {
+        width: 95%;
+    }
+
+    header {
+        height: 450px;
+    }
+
+    .header-text h3 {
+        font-size: 24px;
+    }
+
+    .header-text h1 {
+        font-size: 42px;
+    }
+
+    .offer h1 {
+        font-size: 60px;
+    }
+
+    .offer h2 {
+        font-size: 32px;
+    }
+
+    .party-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .party-text h1 {
+        font-size: 40px;
+    }
+
+    .party-text p {
+        font-size: 16px;
+    }
+
+    .party-content img {
+        width: 70%;
+    }
+
+    .event-info {
+        padding: 60px 20px;
+    }
+
+    .event-info h2 {
+        font-size: 24px;
+    }
+
+    .new-offer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .round-img {
+        margin: auto;
+        width: fit-content;
+    }
+
+    .round-img img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .holiday-texts h1 {
+        font-size: 42px;
+    }
+
+    .holiday-img {
+        flex-direction: column;
+        background-size: 100%;
+        gap: 30px;
+    }
+
+    .holiday-img img {
+        width: 80%;
+    }
+
+    .portfolio-text h1 {
+        font-size: 36px;
+    }
+
+    .portfolio-img {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-img img {
+        width: 100%;
+    }
+
+    .subscribe {
+        padding: 60px 20px;
+    }
+
+    .subscribe h1 {
+        font-size: 36px;
+    }
+
+    .submit {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .email,
+    .sub-btn {
+        width: 100%;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+
+    .footer {
+        padding: 60px 20px;
+    }
+
+    .footer-text,
+    .bottom-text {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .icons {
+        flex-wrap: wrap;
+    }
+}
